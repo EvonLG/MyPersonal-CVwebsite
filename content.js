@@ -2,44 +2,35 @@
    Use null for links you do not have; the site shows a setup message.
    Image paths are relative to index.html. Keep quotation marks and commas. */
 window.CV = {
-  name: "[YOUR NAME]",
-  title: "[Your career title]",
-  location: "[City, Country]",
+  name: "EVON L.G.",
+  title: "Information Technology Student",
+  location: "Davao del Norte, Philippines",
   year: new Date().getFullYear(),
-  availability: "[Your availability / career goal]",
-  intro: "[Write a short introduction: what you study, what you create, and the kind of opportunity you're looking for.]",
-  about: "[Introduce yourself in your own voice. Describe your interests, approach to solving problems, and what you enjoy learning or building.]",
-  objective: "[Describe the internship, employment, freelance, or professional opportunity you want, and how you hope to contribute.]",
-  interests: "[Career interests, e.g. web development, UI/UX]",
-  email: "[YOUR EMAIL]",
-  phone: "[Optional: public phone number, or remove this field in index.html]",
-  portrait: "assets/profile.svg", // Replace with assets/profile.jpg after adding your own photo.
+  availability: "Aspiring Game Developer",
+  intro: "I'm very much interested in creating, that incudes: 3d modeling, sketching, anything drag-and-drop, and being creative in general.",
+  about: "Hey, I’m Evon — an aspiring game developer with a curious mind and a growing collection of ideas. I enjoy turning “what if?” into something people can use, whether that’s a thoughtful interface or a website built from scratch. I’m learning, experimenting, and finding my own style along the way — one project at a time.",
+  objective: "To graduate and build a career that feels like a hobby, not a job.",
+  interests: "3d Modeling, Web Designing",
+  email: "evon.granaderos12@gmail.com",
+  phone: "+63 09852338288",
+  portrait: "assets/evon.svg", 
   portraitAlt: "Placeholder portrait: replace with your professional photo",
-  contactIntro: "[Have an opportunity, project, or collaboration in mind? Write a short invitation to contact you.]",
   skills: [
-    { group: "Build", items: ["[HTML]", "[CSS]", "[JavaScript]", "[Programming language]"] },
-    { group: "Design & tools", items: ["[UI/UX design]", "[Git & GitHub]", "[Database management]"] },
-    { group: "Work together", items: ["[Problem solving]", "[Communication]", "[Teamwork]"] }
+    { group: "Build", items: ["HTML5", "CSS", "GDSCRIPT"] },
+    { group: "Design & tools", items: ["Blender", "Godot Engine 3", "Figma", "Photoshop"] },
+    { group: "Work together", items: ["Problem solving", "Communication", "Teamwork"] }
   ],
   projects: [
-    { name: "[Project one]", category: "Development", date: "[Month Year]", description: "[Describe the problem, who the project is for, and what you built.]", technologies: ["[HTML]", "[CSS]", "[JavaScript]"], image: "assets/project-web.svg", imageAlt: "Illustrative website wireframe; replace with a screenshot of your project", role: "[Your role and specific contribution]", outcome: "[What worked, what you learned, and a result you can support.]", repo: null, demo: null },
-    { name: "[Project two]", category: "Design", date: "[Month Year]", description: "[Describe your design or another academic project and its purpose.]", technologies: ["[Figma]", "[User research]"], image: "assets/project-design.svg", imageAlt: "Illustrative mobile app wireframe; replace with your design preview", role: "[Your role and process]", outcome: "[Explain a design decision and what you learned.]", repo: null, demo: null },
-    { name: "[Project three]", category: "Development", date: "[Ongoing / Month Year]", description: "[Introduce a completed or ongoing programming activity.]", technologies: ["[Language]", "[Database]"], image: "assets/project-data.svg", imageAlt: "Illustrative dashboard wireframe; replace with your project screenshot", role: "[Individual or team contribution]", outcome: "[Current progress or next steps]", repo: null, demo: null }
+    { name: "Myndle", category: "Development", date: "October 2026", description: "Myndle addresses low motivation and limited interactive support in independent English learning among junior high school students in Grades 7–10. We built a desktop application combining a 3D study environment, an AI virtual assistant, and gamified quizzes with points, levels, and badges to make studying more engaging and support knowledge retention.", technologies: ["GodotEngine3", "Blender", "GDScript", "Python"], image: "assets/myndlethumbnail.svg", imageAlt: "Myndle", role: "3d Modeler and Fronend Designer", outcome: "So far, bringing together a 3D study environment, an AI assistant, and gamified quizzes has helped us shape Myndle’s approach to English learning. Myndle is still in development, so its usability and impact on learning have yet to be validated through testing.", repo: null, demo: null },
   ],
   education: [
-    { period: "[Start year – Present]", title: "[Degree / Program]", organization: "[School / University]", detail: "[Current year level • relevant coursework • academic achievements]" },
-    { period: "[Start year – End year]", title: "[Senior high school / strand, if applicable]", organization: "[School name]", detail: "[Relevant achievement or subject focus. Remove this entry if not applicable.]" }
+    { period: "[2023 – Present]", title: "Bachelor of Science in Information Technology", organization: "Davao del Norte State College", detail: "4th Year • Currently working on Capstone" },
+    { period: "2021 – 2023]", title: "Information & Communications Technology", organization: "San Vicente National High School", detail: "Specialized in Animation" }
   ],
   experience: [
-    { period: "[Month Year – Month Year]", title: "[Role / Academic project role]", organization: "[Organization / Course / Volunteer group]", detail: "[Describe your contribution and a real outcome. If you have no work experience, use school activities, technical projects, or organization involvement.]" }
-  ],
-  achievements: [
-    { title: "[Certificate / Award / Training]", detail: "[Issuing organization • Date • What you learned]" },
-    { title: "[Competition / Academic achievement]", detail: "[Event or organization • Date • Your contribution]" }
+    { period: "[March 2026 – Present]", title: "Frontend Designer", organization: "Capstone Project", detail: "I plan the flow and the design of the games' user interface and I also do the relevant 3d modeling." }
   ],
   socials: [
-    { label: "GitHub", url: null }, // REQUIRED: https://github.com/your-username
-    { label: "LinkedIn", url: null }, // Optional: add your profile URL or remove the entry.
-    { label: "Other professional profile", url: null } // Optional social media.
+    { label: "GitHub", url: "https://github.com/EvonLG" }
   ]
 };
