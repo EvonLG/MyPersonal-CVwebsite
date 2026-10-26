@@ -1,7 +1,7 @@
 # EVON L. GRANADEROS — Personal CV & Portfolio
 
 - **Student name:** EVON L. GRANADEROS
-- **Live Vercel link:** ...
+- **Live Vercel link:** https://evon-personalcvwebsite.vercel.app/
 - **GitHub repository:** https://github.com/EvonLG/MyPersonal-CVwebsite.git
 - **Technologies:** HTML5, CSS3, vanilla JavaScript, Git, GitHub, Vercel
 
