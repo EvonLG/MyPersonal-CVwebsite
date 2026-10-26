@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Editable personal CV and creative portfolio. Replace this description with your own professional introduction.">
+<title>EVON — Personal CV & Portfolio</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+<script src="content.js" defer></script><script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="paper">
+<header class="header"><a class="brand" href="#home" aria-label="Home">✳</a><button class="menu" aria-expanded="false" aria-controls="navigation">Menu +</button><nav id="navigation" aria-label="Main navigation"><a href="#home" class="active">★ Home</a><a href="#about">About</a><a href="#projects">Selected work</a><a href="#resume">Résumé</a></nav><a class="contact-nav" href="#contact">Let's talk ↗</a></header>
+<main id="main">
+<section class="hero" id="home">
+<div class="eyebrow">PERSONAL CV / PORTFOLIO <span>✦</span> <span data-text="year"></span></div>
+<p class="hand intro-label">hello, my name is</p><h1 data-text="name"></h1>
+<div class="hero-labels"><span class="sticker yellow" data-text="title"></span><span class="availability"><i></i><span data-text="availability"></span></span><span class="sticker mint" data-text="location"></span></div>
+<h2>Curious mind.<br>Thoughtful work. <span class="flower" aria-hidden="true">✳</span></h2>
+<p class="hero-description" data-text="intro"></p>
+<a class="button dark" href="#projects">Explore my work <span>↘</span></a>
+<span class="doodle star-one" aria-hidden="true">✧</span><span class="doodle star-two" aria-hidden="true">✦</span>
+<div class="hero-bottom"><span>IDEAS → LEARNING → MAKING</span><a href="#about">Scroll to get to know me ↓</a></div>
+</section>
+<section id="about" class="section about"><div class="section-heading"><p class="eyebrow">01 / THE PERSON BEHIND THE WORK</p><h2>A little about me<span class="purple">.</span></h2></div>
+<div class="about-layout"><figure class="polaroid"><img id="portrait" src="assets/profile.svg" alt="Placeholder portrait: replace with your professional photo" width="420" height="500"><figcaption class="hand">your next collaborator ↗</figcaption></figure>
+<div class="about-copy"><span class="outlined hand">what's up!</span><p class="large-copy" data-text="about"></p><div class="objective"><h3>Where I'm headed ↗</h3><p data-text="objective"></p></div><dl class="facts"><div><dt>Based in</dt><dd data-text="location"></dd></div><div><dt>Interested in</dt><dd data-text="interests"></dd></div><div><dt>Email</dt><dd id="about-email"></dd></div><div><dt>Phone · optional</dt><dd data-text="phone"></dd></div></dl></div></div>
+</section>
+<section id="skills" class="section skills"><div class="section-heading"><p class="eyebrow">02 / MY TOOLKIT</p><h2>Skills I bring to the table.</h2><p>Replace these sample skill labels with your current abilities.</p></div><div id="skill-list" class="skill-list"></div></section>
+<section id="projects" class="section projects"><div class="section-heading"><p class="eyebrow">03 / LEARNING BY MAKING</p><h2>Selected work <span class="hand small-note">always a work in progress ↙</span></h2><p>Illustrative project layouts — replace every example with your own work.</p></div><div class="filters" role="group" aria-label="Filter projects"><button class="selected" data-filter="All" aria-pressed="true">All work</button><button data-filter="Development" aria-pressed="false">Development</button><button data-filter="Design" aria-pressed="false">Design</button></div><div id="project-list"></div><p id="project-count" class="eyebrow" aria-live="polite"></p></section>
+<section id="resume" class="section resume"><div class="section-heading"><p class="eyebrow">04 / THE JOURNEY SO FAR</p><h2>Learning. Doing. Growing.</h2></div><div class="resume-grid"><div><h3 class="resume-title">↗ Education</h3><div id="education-list"></div></div><div><h3 class="resume-title">✳ Experience & involvement</h3><div id="experience-list"></div></div></div><div class="awards"><h3>Achievements & certifications</h3><div id="achievement-list"></div></div><button class="button print-button" id="print-cv">Print / save CV as PDF ↗</button></section>
+<section id="contact" class="section contact"><p class="eyebrow">05 / NEXT CHAPTER</p><span class="smiley" aria-hidden="true">☺</span><h2>Let's make<br>something <em>good.</em></h2><p data-text="contactIntro"></p><a id="email-button" class="button dark" href="#contact">Email me ↗</a><div id="social-links" class="social-links"></div><p class="contact-note">Only add accounts and contact details you want to make public.</p></section>
+</main><footer><span>© <span data-text="year"></span> <span data-text="name"></span></span><span>Made with curiosity & a little CSS.</span><a href="#home">Back to top ↑</a></footer>
+</div><div class="toast" id="toast" role="status"></div><dialog id="project-dialog"><button id="close-dialog" aria-label="Close project details">Close ×</button><div id="dialog-content"></div></dialog>
+</body></html>
